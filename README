@@ -1,0 +1,46 @@
+Parse-RecDescent-Simple
+
+Parse::RecDescent::Simple provides a, yes, simple wrapper for Parse::RecDescent that parses your content into a simple structure
+based on my own XML::xmlapi.  It makes it easy to get structure out of a parsed object without writing any code.  Because I'm lazy.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Parse::RecDescent::Simple
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Parse-RecDescent-Simple
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Parse-RecDescent-Simple
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Parse-RecDescent-Simple
+
+    Search CPAN
+        http://search.cpan.org/dist/Parse-RecDescent-Simple/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Michael Roberts
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
