@@ -11,11 +11,11 @@ Parse::RecDescent::Simple - Quick and dirty use of the excellent Parse::RecDesce
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -126,7 +126,7 @@ sub process {
    my $tag = shift;
 
    return $_[0] if (@_ eq 1 and ref $_[0] eq 'XML::xmlapi');
-   #print Dumper(@_) . "\n";
+
    my $return = XML::xmlapi->create ($tag);
    if (@_ eq 1 and ref $_[0] eq 'ARRAY' and ${$_[0]}[0] eq '') {
       $return->append(XML::xmlapi->createtext (${$_[0]}[2]));

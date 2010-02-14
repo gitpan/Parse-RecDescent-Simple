@@ -2,4 +2,7 @@ Revision history for Parse-RecDescent-Simple
 
 0.01    2010-02-06
         Initial version.  Needs a lot of work, but it's already a useful little hack, so ... here you go.
+        
+0.02    2010-02-14
+        Straightened out the META.yml prerequisites, something I've been doing an awful lot of lately.
 

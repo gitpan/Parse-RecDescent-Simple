@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Parse-RecDescent-Simple
-version:            0.01
+version:            0.02
 abstract:           Quick and dirty use of the excellent Parse::RecDescent if you just want a simple tree structure
 author:
     - Michael Roberts <michael@vivtek.com>
@@ -9,8 +9,9 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:   0
-    XML::xmlapi:  0
+    Parse::RecDescent:  0
+    Test::More:         0
+    XML::xmlapi:        0
 no_index:
     directory:
         - t
